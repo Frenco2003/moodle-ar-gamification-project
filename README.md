@@ -152,9 +152,8 @@ To view 3D models in AR from a mobile phone, Moodle must be accessible via publi
     1. Download Zrok from the [official page](https://netfoundry.io/docs/zrok/guides/install)
     1. Start the application tunnel `zrok share public localhost:8000 --headless`
     1. Copy the generated link (e.g., https://xyz-123.share.zrok.io).
-        > [!CAUTION]
-        > Do not close the terminal!
-    1. 
+    1. Do not close the terminal!
+   
 1. **Editing the config.php File**
     1. Open the config.php file located in the main Moodle folder.
     1. Replace the Web address configuration ($CFG->wwwroot) with the following code block
